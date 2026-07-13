@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Wealth Forge Co — Full-service Meta advertising agency running Facebook and Instagram ad campaigns. We also create conversion-focused websites for businesses.">
+<meta name="theme-color" content="#0a0a0a">
+<title>Wealth Forge Co — Meta Advertising &amp; Website Design Agency</title>
+
+<!-- Favicons -->
+<link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192" href="assets/images/favicon-192x192.png">
+<link rel="icon" type="image/png" sizes="512x512" href="assets/images/favicon-512x512.png">
+
+<!-- Open Graph / Social Share -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Wealth Forge Co — Meta Advertising &amp; Website Design">
+<meta property="og:description" content="From brand awareness to sales and website creation — we run Meta ad campaigns and build websites that help businesses grow.">
+<meta property="og:url" content="https://wealthforgeco.com">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Wealth Forge Co — Meta Advertising &amp; Website Design">
+<meta name="twitter:description" content="Full-service Meta advertising and website creation agency for growing businesses.">
+
+<!-- Stylesheet -->
+<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+
+
+<div id="google_translate_element" style="display:none" aria-hidden="true"></div>
+
+<a href="#main" class="skip-link">Skip to main content</a>
+
+<!-- ── NAV ── -->
+<nav aria-label="Main navigation">
+  <a href="#" class="nav-logo-wrap" aria-label="Wealth Forge Co — Home">
+    <span class="nav-logo-text shimmer-gold">Wealth Forge Co</span>
+  </a>
+  <div class="nav-right">
+    <!-- Translate widget -->
+    <div class="translate-wrapper" id="translateWrapper">
+      <button class="translate-btn" id="translateBtn" aria-haspopup="listbox" aria-expanded="false" aria-label="Translate website">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/>
+          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+        </svg>
+        <span id="activeLangLabel">EN</span>
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:10px;height:10px"><polyline points="6 9 12 15 18 9"/></svg>
+      </button>
+      <div class="translate-dropdown" id="translateDropdown" role="listbox" aria-label="Select language">
+      </div>
+    </div>
+    <div class="nav-divider"></div>
+    <div class="nav-social" aria-label="Social media links">
+      <a href="https://www.facebook.com/profile.php?id=61586273708307" target="_blank" rel="noopener" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+        </svg>
+      </a>
+      <a href="https://www.instagram.com/wealthforgeco?igsh=eDd3MXB5cnVzMmR0&utm_source=qr" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+        </svg>
+      </a>
+    </div>
+    <div class="nav-divider"></div>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#booking" class="nav-cta">Join Waitlist</a>
+    </div>
+    <!-- Hamburger (mobile only) -->
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+
+<!-- Mobile nav drawer -->
+<div class="mobile-nav-drawer" id="mobileDrawer" aria-hidden="true">
+  <a href="#about"     onclick="closeDrawer()">About</a>
+  <a href="#services"  onclick="closeDrawer()">Services</a>
+  <a href="#booking"   onclick="closeDrawer()" class="mobile-cta">Join Waitlist</a>
+  <div class="mobile-drawer-social">
+    <a href="https://www.facebook.com/profile.php?id=61586273708307" target="_blank" rel="noopener" aria-label="Facebook">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+    </a>
+    <a href="https://www.instagram.com/wealthforgeco?igsh=eDd3MXB5cnVzMmR0&utm_source=qr" target="_blank" rel="noopener" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+      </svg>
+    </a>
+  </div>
+</div>
+
+<!-- ── HERO ── -->
+<main id="main">
+<section class="hero" aria-label="Hero">
+  <div class="hero-bg-text" aria-hidden="true">FORGE</div>
+
+  <div class="hero-eyebrow shimmer-gold">Meta Advertising &amp; Website Design — Facebook &amp; Instagram</div>
+  <h1>Every Objective. One Platform. <em>Zero Guesswork.</em></h1>
+  <p class="hero-sub">From brand awareness and website traffic to lead generation, sales, and app installs — we create and manage Meta ad campaigns that help your business reach the right audience and achieve measurable results.</p>
+  <div class="hero-actions">
+    <a href="#booking" class="btn-primary">Join the Waitlist</a>
+    <a href="#about" class="btn-ghost">See how we work</a>
+  </div>
+  </section>
+
+<!-- ── MARQUEE ── -->
+<div class="marquee-bar" aria-hidden="true">
+  <div class="marquee-inner">
+    <span class="marquee-item">Business Strategy</span>
+    <span class="marquee-item">Paid Social</span>
+    <span class="marquee-item">Analytics & Reporting</span>
+    <span class="marquee-item">Business Growth</span>
+    <span class="marquee-item">Paid Social</span>
+    <span class="marquee-item">Analytics & Reporting</span>
+    <span class="marquee-item">Business Strategy</span>
+    <span class="marquee-item">Paid Social</span>
+  </div>
+</div>
+
+<!-- ── OBJECTIVES SHOWCASE ── -->
+<section class="objectives" aria-label="Meta Campaign Objectives">
+  <div class="obj-label">What We Run</div>
+  <div class="obj-heading">One Platform.<br>Every Objective<span class="obj-dot">.</span></div>
+  <div class="obj-grid">
+    <div class="obj-card">
+      <div class="obj-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+      </div>
+      <div class="obj-name">Brand Awareness</div>
+      <div class="obj-desc">Put your business in front of the people most likely to remember it.</div>
+    </div>
+    <div class="obj-card">
+      <div class="obj-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+      </div>
+      <div class="obj-name">Website Traffic</div>
+      <div class="obj-desc">Drive high-intent visitors directly to your site, landing page, or offer.</div>
+    </div>
+    <div class="obj-card">
+      <div class="obj-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+      </div>
+      <div class="obj-name">Lead Generation</div>
+      <div class="obj-desc">Collect qualified leads directly inside Facebook and Instagram — no landing page required.</div>
+    </div>
+    <div class="obj-card">
+      <div class="obj-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+      </div>
+      <div class="obj-name">Sales &amp; Conversions</div>
+      <div class="obj-desc">Turn ad spend into revenue with campaigns built to drive purchases and bookings.</div>
+    </div>
+    <div class="obj-card">
+      <div class="obj-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18" stroke-linecap="round" stroke-width="2.5"/></svg>
+      </div>
+      <div class="obj-name">App Installs</div>
+      <div class="obj-desc">Reach users most likely to download and engage with your mobile application.</div>
+    </div>
+    <div class="obj-card">
+      <div class="obj-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+      </div>
+      <div class="obj-name">Retargeting</div>
+      <div class="obj-desc">Re-engage people who visited your site, watched your videos, or interacted with your ads.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── ABOUT ── -->
+<section class="about" id="about" aria-labelledby="about-heading">
+  <div>
+    <div class="about-label">Who We Are</div>
+    <h2 id="about-heading">Every Goal Your Business Has, <span>Meta Has a Campaign For It.</span></h2>
+    <p class="about-body">
+      Most agencies run one type of ad and call it a strategy. <strong>We think bigger.</strong><br><br>
+      Wealth Forge Co is a full-service Meta advertising agency that leverages <strong>everything Facebook and Instagram offer</strong> — awareness campaigns that build your name, traffic campaigns that fill your website, lead campaigns that fill your pipeline, conversion campaigns that drive sales, and retargeting that brings back the ones who almost bought.<br><br>
+      One platform. Every objective. And when your business needs a website that converts, we build that too — so your ads always have somewhere powerful to land.
+    </p>
+  </div>
+  <div class="about-visual" aria-hidden="true">
+    <div class="about-card">
+      <div class="card-icon">◈</div>
+      <div class="card-title">Strategy Before Spend</div>
+      <div class="card-text">Before a single dollar moves, we map your audience, study your competitors, and choose the right Meta objective for your goal. Awareness, traffic, leads, sales — each needs its own approach.</div>
+    </div>
+    <div class="about-card">
+      <div class="card-icon">◆</div>
+      <div class="card-title">Results You Can Measure</div>
+      <div class="card-text" style="color:#333">Reach, clicks, leads, cost-per-result, ROAS, app installs — every metric that matters to your specific goal, reported clearly so you always know exactly what your budget is doing.</div>
+    </div>
+  </div>
+</section>
+
+<!-- ── SERVICES ── -->
+<section class="services" id="services" aria-labelledby="services-heading">
+  <div class="services-header">
+    <h2 id="services-heading">What We Do</h2>
+    <div style="font-size:0.78rem;color:var(--grey);letter-spacing:0.1em;text-transform:uppercase;">Meta Advertising &amp; Web Design</div>
+  </div>
+  <div class="services-grid">
+    <div class="service-item"><div class="service-num">01</div><div class="service-title">Meta Ads Strategy</div><div class="service-desc">We identify your ideal audience and the right Meta objective — awareness, traffic, leads, sales, or app installs — then build a campaign roadmap before a single dollar is spent.</div></div>
+    <div class="service-item"><div class="service-num">02</div><div class="service-title">Facebook &amp; Instagram Ad Management</div><div class="service-desc">Full campaign setup and management across every Meta objective — from awareness and traffic to lead gen, conversions, and retargeting. Audience testing, budget management, and ongoing optimization included.</div></div>
+    <div class="service-item"><div class="service-num">03</div><div class="service-title">Ad Creative &amp; Copy</div><div class="service-desc">Scroll-stopping ad copy and creative recommendations tailored to each campaign objective — awareness ads that build recognition, conversion ads that close, and everything in between.</div></div>
+    <div class="service-item"><div class="service-num">04</div><div class="service-title">Performance Reporting</div><div class="service-desc">Monthly reports in plain English — reach, traffic, leads, sales, ROAS, cost-per-result — mapped to your specific goals with clear next steps, no confusing ad dashboards required.</div></div>
+    <div class="service-item service-item--featured"><div class="service-num">05</div><div class="service-title">Website Design &amp; Development</div><div class="service-desc">Your ads need somewhere to land. We design and build clean, conversion-focused websites for your business — fast, mobile-ready, and built to turn visitors into customers.</div></div>
+  </div>
+</section>
+
+<!-- ── WAITLIST ── -->
+<section class="booking" id="booking" aria-labelledby="booking-heading">
+  <div class="booking-top">
+    <div class="booking-label">Join the Waitlist</div>
+    <h2 id="booking-heading">We're Accepting New Clients</h2>
+    <p class="booking-sub">We work with a limited number of businesses at a time to make sure every client gets our full attention. Submit your information below and we'll reach out when a spot opens up.</p>
+    <ul class="booking-benefits">
+      <li><span class="benefit-arrow">→</span><span>Priority access when a client spot opens</span></li>
+      <li><span class="benefit-arrow">→</span><span>We'll review your business before we reach out</span></li>
+      <li><span class="benefit-arrow">→</span><span>No commitment — just get in line</span></li>
+      <li><span class="benefit-arrow">→</span><span>Response within 2 business hours of opening</span></li>
+    </ul>
+  </div>
+
+  <div class="booking-steps">
+    <div class="step-panel" id="waitlistPanel">
+      <div class="step-header">
+        <div class="step-badge">Waitlist Application</div>
+        <div class="step-title">Tell Us About Your Business</div>
+        <div class="step-sub">The more we know upfront, the faster we can move when a spot opens.</div>
+      </div>
+
+      <form id="leadForm" action="https://formspree.io/f/mqevpygr" method="POST" novalidate>
+        <input type="hidden" name="_subject" value="New Waitlist Submission — Wealth Forge Co" />
+        <input type="hidden" name="_replyto" id="replyToField" value="" />
+
+        <div class="form-row">
+          <div class="form-group">
+            <label for="firstName">First Name <span class="req">*</span></label>
+            <input type="text" id="firstName" name="First Name" placeholder="Jane" autocomplete="given-name" required />
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last Name <span class="req">*</span></label>
+            <input type="text" id="lastName" name="Last Name" placeholder="Smith" autocomplete="family-name" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address <span class="req">*</span></label>
+          <input type="email" id="email" name="Email" placeholder="jane@yourbusiness.com" autocomplete="email" required />
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="phone">Phone Number <span class="req">*</span></label>
+            <input type="tel" id="phone" name="Phone" placeholder="(555) 555-5555" autocomplete="tel" required maxlength="14" inputmode="numeric" />
+          </div>
+          <div class="form-group">
+            <label for="company">Business Name</label>
+            <input type="text" id="company" name="Business Name" placeholder="Your Business" autocomplete="organization" />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="platform">What Do You Need Help With?</label>
+            <select id="platform" name="Service Needed">
+              <option value="">Select a service...</option>
+              <option value="Meta Ads Management">Meta Ads Management</option>
+              <option value="Website Creation">Website Creation</option>
+              <option value="Meta Ads + Website Creation">Meta Ads + Website Creation</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="industry">Industry</label>
+            <select id="industry" name="Industry">
+              <option value="">Select industry...</option>
+              <option>Home Services</option>
+              <option>Health & Wellness Clinics</option>
+              <option>Real Estate Professionals</option>
+              <option>Restaurants & Hospitality</option>
+              <option>Automotive Services</option>
+              <option>Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="referral">Were You Referred? If so, by whom?</label>
+          <input type="text" id="referral" name="Referred By" placeholder="e.g. John Smith, LinkedIn, Google Search…" />
+        </div>
+        <div class="form-group">
+          <label for="message">What are you looking to achieve? (optional)</label>
+          <textarea id="message" name="Message" placeholder="Tell us about your business and what you're looking to achieve…"></textarea>
+        </div>
+
+        <button type="submit" class="btn-submit" id="waitlistBtn">Add Me to the Waitlist →</button>
+        <p class="form-note">🔒 Your information is sent securely to wealthforgeco@outlook.com and never shared.</p>
+      </form>
+    </div>
+
+    <!-- Success State -->
+    <div class="success-msg" id="successMsg" role="alert" aria-live="polite" style="display:none;">
+      <div class="success-icon" aria-hidden="true">◆</div>
+      <h3>You're on the List.</h3>
+      <p>We've received your information and you're officially on our waitlist. We'll be in touch as soon as a spot opens up — keep an eye on your inbox at <strong id="successEmail"></strong>.</p>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <div class="footer-logo-wrap">
+    <span class="footer-logo-text shimmer-gold">Wealth Forge Co</span>
+  </div>
+
+  <div class="footer-center">
+    <div class="footer-social" aria-label="Social media links">
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/profile.php?id=61586273708307" target="_blank" rel="noopener" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+        </svg>
+      </a>
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/wealthforgeco?igsh=eDd3MXB5cnVzMmR0&utm_source=qr" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+          <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+          <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+          <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+        </svg>
+      </a>
+    </div>
+    <div class="footer-copy">© 2026 Wealth Forge Co. All rights reserved.</div>
+  </div>
+
+  <div class="footer-links">
+    <a href="/privacy-policy.html">Privacy</a>
+    <a href="/terms.html">Terms</a>
+    <a href="#booking">Contact</a>
+  </div>
+</footer>
+
+<script>
+  // ── HAMBURGER MENU ──
+  const hamburger = document.getElementById('hamburger');
+  const mobileDrawer = document.getElementById('mobileDrawer');
+
+  hamburger.addEventListener('click', () => {
+    const isOpen = mobileDrawer.classList.toggle('open');
+    hamburger.classList.toggle('open', isOpen);
+    hamburger.setAttribute('aria-expanded', isOpen);
+    mobileDrawer.setAttribute('aria-hidden', !isOpen);
+    document.body.style.overflow = isOpen ? 'hidden' : '';
+  });
+
+  function closeDrawer() {
+    mobileDrawer.classList.remove('open');
+    hamburger.classList.remove('open');
+    hamburger.setAttribute('aria-expanded', 'false');
+    mobileDrawer.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  // Close drawer on escape key
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeDrawer(); });
+
+  // ── PHONE AUTO-FORMAT ──
+  const phoneInput = document.getElementById('phone');
+  if (phoneInput) {
+    phoneInput.addEventListener('input', function(e) {
+      let val = this.value.replace(/\D/g, '').substring(0, 10);
+      let formatted = '';
+      if (val.length >= 1) formatted = '(' + val.substring(0, 3);
+      if (val.length >= 4) formatted += ') ' + val.substring(3, 6);
+      if (val.length >= 7) formatted += '-' + val.substring(6, 10);
+      this.value = formatted;
+    });
+    phoneInput.addEventListener('keydown', function(e) {
+      if (e.key === 'Backspace' && this.value.endsWith(') ')) {
+        e.preventDefault();
+        this.value = this.value.slice(0, -2);
+      }
+    });
+  }
+
+  // ── WAITLIST FORM ──
+  const leadForm    = document.getElementById('leadForm');
+  const waitlistBtn = document.getElementById('waitlistBtn');
+
+  document.getElementById('email').addEventListener('input', function() {
+    document.getElementById('replyToField').value = this.value;
+  });
+
+  leadForm.addEventListener('submit', async function(e) {
+    e.preventDefault();
+    const first = document.getElementById('firstName').value.trim();
+    const last  = document.getElementById('lastName').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const phone = document.getElementById('phone').value.trim();
+    if (!first || !last) { alert('Please enter your first and last name.'); return; }
+    if (!email)          { alert('Please enter your email address.'); return; }
+    if (!phone)          { alert('Please enter your phone number.'); return; }
+
+    waitlistBtn.textContent = 'Submitting…';
+    waitlistBtn.disabled = true;
+
+    try {
+      const formData = new FormData(leadForm);
+      const response = await fetch('https://formspree.io/f/mqevpygr', {
+        method: 'POST', body: formData, headers: { 'Accept': 'application/json' }
+      });
+      if (response.ok) {
+        document.getElementById('waitlistPanel').style.display = 'none';
+        const success = document.getElementById('successMsg');
+        success.style.display = 'block';
+        document.getElementById('successEmail').textContent = email;
+        success.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      } else {
+        waitlistBtn.textContent = 'Add Me to the Waitlist →';
+        waitlistBtn.disabled = false;
+        alert('Something went wrong. Please try again or email us at wealthforgeco@outlook.com');
+      }
+    } catch (err) {
+      waitlistBtn.textContent = 'Add Me to the Waitlist →';
+      waitlistBtn.disabled = false;
+      alert('Network error. Please check your connection and try again.');
+    }
+  });
+
+  // ── TRANSLATION ──
+  const languages = [
+    { code: 'en',    label: 'English',            native: 'English',          flag: '🇺🇸' },
+    { code: 'es',    label: 'Spanish',            native: 'Español',          flag: '🇪🇸' },
+    { code: 'fr',    label: 'French',             native: 'Français',         flag: '🇫🇷' },
+    { code: 'de',    label: 'German',             native: 'Deutsch',          flag: '🇩🇪' },
+    { code: 'it',    label: 'Italian',            native: 'Italiano',         flag: '🇮🇹' },
+    { code: 'pt',    label: 'Portuguese',         native: 'Português',        flag: '🇧🇷' },
+    { code: 'zh-CN', label: 'Chinese (Simplified)',native: '中文',             flag: '🇨🇳' },
+    { code: 'zh-TW', label: 'Chinese (Traditional)',native: '繁體中文',        flag: '🇹🇼' },
+    { code: 'ja',    label: 'Japanese',           native: '日本語',            flag: '🇯🇵' },
+    { code: 'ko',    label: 'Korean',             native: '한국어',            flag: '🇰🇷' },
+    { code: 'ar',    label: 'Arabic',             native: 'العربية',          flag: '🇸🇦' },
+    { code: 'hi',    label: 'Hindi',              native: 'हिन्दी',           flag: '🇮🇳' },
+    { code: 'ru',    label: 'Russian',            native: 'Русский',          flag: '🇷🇺' },
+    { code: 'nl',    label: 'Dutch',              native: 'Nederlands',       flag: '🇳🇱' },
+    { code: 'sv',    label: 'Swedish',            native: 'Svenska',          flag: '🇸🇪' },
+    { code: 'pl',    label: 'Polish',             native: 'Polski',           flag: '🇵🇱' },
+    { code: 'tr',    label: 'Turkish',            native: 'Türkçe',           flag: '🇹🇷' },
+    { code: 'he',    label: 'Hebrew',             native: 'עברית',            flag: '🇮🇱' },
+    { code: 'vi',    label: 'Vietnamese',         native: 'Tiếng Việt',       flag: '🇻🇳' },
+    { code: 'th',    label: 'Thai',               native: 'ภาษาไทย',          flag: '🇹🇭' },
+    { code: 'id',    label: 'Indonesian',         native: 'Bahasa Indonesia', flag: '🇮🇩' },
+    { code: 'ms',    label: 'Malay',              native: 'Bahasa Melayu',    flag: '🇲🇾' },
+    { code: 'uk',    label: 'Ukrainian',          native: 'Українська',       flag: '🇺🇦' },
+    { code: 'el',    label: 'Greek',              native: 'Ελληνικά',         flag: '🇬🇷' },
+    { code: 'hu',    label: 'Hungarian',          native: 'Magyar',           flag: '🇭🇺' },
+    { code: 'ro',    label: 'Romanian',           native: 'Română',           flag: '🇷🇴' },
+    { code: 'cs',    label: 'Czech',              native: 'Čeština',          flag: '🇨🇿' },
+    { code: 'da',    label: 'Danish',             native: 'Dansk',            flag: '🇩🇰' },
+    { code: 'fi',    label: 'Finnish',            native: 'Suomi',            flag: '🇫🇮' },
+    { code: 'no',    label: 'Norwegian',          native: 'Norsk',            flag: '🇳🇴' },
+    { code: 'af',    label: 'Afrikaans',          native: 'Afrikaans',        flag: '🇿🇦' },
+    { code: 'sw',    label: 'Swahili',            native: 'Kiswahili',        flag: '🇰🇪' },
+    { code: 'tl',    label: 'Filipino',           native: 'Filipino',         flag: '🇵🇭' },
+    { code: 'bn',    label: 'Bengali',            native: 'বাংলা',            flag: '🇧🇩' },
+    { code: 'fa',    label: 'Persian',            native: 'فارسی',            flag: '🇮🇷' },
+  ];
+
+  let activeLang = 'en';
+
+  // Build dropdown items
+  const dropdown = document.getElementById('translateDropdown');
+  languages.forEach(lang => {
+    const item = document.createElement('div');
+    item.className = 'lang-option' + (lang.code === 'en' ? ' active' : '');
+    item.setAttribute('role', 'option');
+    item.setAttribute('data-code', lang.code);
+    item.innerHTML = `<span class="lang-flag">${lang.flag}</span><span>${lang.label}</span><span class="lang-native">${lang.native}</span>`;
+    item.addEventListener('click', () => selectLanguage(lang));
+    dropdown.appendChild(item);
+  });
+
+  // Toggle dropdown
+  const translateBtn = document.getElementById('translateBtn');
+  translateBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const isOpen = dropdown.classList.toggle('open');
+    translateBtn.setAttribute('aria-expanded', isOpen);
+  });
+  document.addEventListener('click', () => {
+    dropdown.classList.remove('open');
+    translateBtn.setAttribute('aria-expanded', 'false');
+  });
+  dropdown.addEventListener('click', e => e.stopPropagation());
+
+  function selectLanguage(lang) {
+    activeLang = lang.code;
+    document.getElementById('activeLangLabel').textContent = lang.code.split('-')[0].toUpperCase();
+    // Mark active
+    document.querySelectorAll('.lang-option').forEach(el => {
+      el.classList.toggle('active', el.getAttribute('data-code') === lang.code);
+    });
+    dropdown.classList.remove('open');
+    translateBtn.setAttribute('aria-expanded', 'false');
+
+    if (lang.code === 'en') {
+      // Remove Google Translate cookie and reload to restore original
+      document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;';
+      document.cookie = 'googtrans=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/; domain=' + location.hostname;
+      location.reload();
+      return;
+    }
+
+    // Set Google Translate cookie
+    const cookieVal = `/en/${lang.code}`;
+    document.cookie = `googtrans=${cookieVal}; path=/`;
+    document.cookie = `googtrans=${cookieVal}; path=/; domain=${location.hostname}`;
+
+    // Load Google Translate script if not already loaded
+    if (!window._gtLoaded) {
+      window._gtLoaded = true;
+      window.googleTranslateElementInit = function() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'en',
+          autoDisplay: false,
+          layout: google.translate.TranslateElement.InlineLayout.NONE
+        }, 'google_translate_element');
+      };
+      const script = document.createElement('script');
+      script.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+      document.head.appendChild(script);
+    } else {
+      // Already loaded — trigger translation via cookie reload
+      location.reload();
+    }
+  }
+
+  // Hide Google Translate toolbar if it appears
+  const style = document.createElement('style');
+  style.textContent = `
+    .goog-te-banner-frame, .skiptranslate { display: none !important; }
+    body { top: 0 !important; }
+    .goog-te-gadget { display: none !important; }
+  `;
+  document.head.appendChild(style);
+
+</script>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
